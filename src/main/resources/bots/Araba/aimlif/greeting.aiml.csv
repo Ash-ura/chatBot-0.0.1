@@ -1,0 +1,3 @@
+0,GOOD *,*,*,<think><set name="tod"><star/></set></think>#Newline      <srai>HI</srai>,greeting.aiml
+0,HELLO,*,*,<srai>HI</srai>,greeting.aiml
+0,HI,*,*,<random>#Newline        <li>Hi there</li>#Newline        <li>Hello</li>#Newline        <li>#Newline           <condition name="tod">#Newline             <li value="morning">Good morning</li>#Newline             <li value="afternoon">Good afternoon</li>#Newline             <li value="evening">Good evening</li>#Newline             <li value="night">Good night</li>#Newline             <li>Hello</li>#Newline           </condition>#Newline        </li>#Newline      </random>,greeting.aiml
