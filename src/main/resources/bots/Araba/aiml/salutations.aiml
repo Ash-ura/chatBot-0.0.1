@@ -1,15 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<aiml version="1.0">
-<!-- -->
-<!-- Free software (c) 2011 ALICE A.I. Foundation.   -->
-<!-- This program is open source code released under -->
-<!-- the terms of the GNU General Public License     -->
-<!-- as published by the Free Software Foundation.   -->
-<!-- Complies with AIML 1.0 Tag Set Specification -->
-<!-- as adopted by the ALICE A.I. Foundation.  -->
-<!-- Last modified 10/5/2011 -->
-<!-- -->
+<aiml>
+<!--  -->
 <category><pattern>GOODBY</pattern>
+<template><srai>bye</srai></template>
+</category>
+<category><pattern>* GOODBYE</pattern>
+<template><srai>bye</srai></template>
+</category>
+<category><pattern>GOODBYE *</pattern>
+<template><srai>bye</srai></template>
+</category>
+<category><pattern>* GOODBYE *</pattern>
 <template><srai>bye</srai></template>
 </category>
 <category><pattern>END</pattern>
@@ -78,9 +79,6 @@
 <category><pattern>MY PLEASRE</pattern>
 <template>The pleasure was indeed mine.</template>
 </category>
-<category><pattern>IT MEANS HELLO</pattern>
-<template><srai>hello</srai></template>
-</category>
 <category><pattern>IT IS GOOD TALKING TO YOU</pattern>
 <template>Nice chatting with you too, <get name="name"/>.</template>
 </category>
@@ -91,13 +89,10 @@
 <template><srai>bye</srai></template>
 </category>
 <category><pattern>ANYBODY HOME</pattern>
-<template><srai>hello</srai></template>
+<template>Yes actually, how may I assist you?</template>
 </category>
 <category><pattern>G2G</pattern>
 <template><srai>bye</srai></template>
-</category>
-<category><pattern>WHAT IS SHALOM</pattern>
-<template>Does shalom mean hello or goodbye?</template>
 </category>
 <category><pattern>GTG</pattern>
 <template><srai>bye </srai></template>
@@ -192,8 +187,115 @@
 <category><pattern>EXIT</pattern>
 <template><srai>bye</srai></template>
 </category>
+<category><pattern>* MY NAME IS *</pattern>
+<template><random>
+          <li>Hello there, <set name="name"> <star index="2"/></set>! How may I assist you?</li>
+          <li>Good Evening, <set name="name"> <star index="2"/></set>! Need some help?</li>
+          <li>Great Evening, <set name="name"> <star index="2"/></set>! Can I assist you with any thing?</li>
+          <li>Hello <set name="name"> <star index="2"/></set>! You good? Need any help?</li>
+          <li>Hi <set name="name"> <star index="2"/></set>, how can I help you?</li>
+          <li>Hello <set name="name"> <star index="2"/></set>, how can I help you?</li>
+          </random></template>
+</category>
+<category><pattern>* CAN CALL ME *</pattern>
+<template><random>
+          <li>Hello there, <set name="name"> <star index="2"/></set>! How may I assist you?</li>
+          <li>Good Evening, <set name="name"> <star index="2"/></set>! Need some help?</li>
+          <li>Great Evening, <set name="name"> <star index="2"/></set>! Can I assist you with any thing?</li>
+          <li>Hello <set name="name"> <star index="2"/></set>! You good? Need any help?</li>
+          <li>Hi <set name="name"> <star index="2"/></set>, how can I help you?</li>
+          <li>Hello <set name="name"> <star index="2"/></set>, how can I help you?</li>
+          </random></template>
+</category>
+<category><pattern>* CALL ME *</pattern>
+<template><random>
+          <li>Hello there, <set name="name"> <star index="2"/></set>! How may I assist you?</li>
+          <li>Good Evening, <set name="name"> <star index="2"/></set>! Need some help?</li>
+          <li>Great Evening, <set name="name"> <star index="2"/></set>! Can I assist you with any thing?</li>
+          <li>Hello <set name="name"> <star index="2"/></set>! You good? Need any help?</li>
+          <li>Hi <set name="name"> <star index="2"/></set>, how can I help you?</li>
+          <li>Hello <set name="name"> <star index="2"/></set>, how can I help you?</li>
+          </random></template>
+</category>
+<category><pattern>CALL ME *</pattern>
+<template><random>
+          <li>Hello there, <set name="name"> <star/></set>! How may I assist you?</li>
+          <li>Good Evening, <set name="name"> <star/></set>! Need some help?</li>
+          <li>Great Evening, <set name="name"> <star/></set>! Can I assist you with any thing?</li>
+          <li>Hello <set name="name"> <star/></set>! You good? Need any help?</li>
+          <li>Hi <set name="name"> <star/></set>, how can I help you?</li>
+          <li>Hello <set name="name"> <star/></set>, how can I help you?</li>
+          </random></template>
+</category>
+<category><pattern>MY NAME IS *</pattern>
+<template><random>
+          <li>Hello there, <set name="name"> <star/></set>! How may I assist you?</li>
+          <li>Good Evening, <set name="name"> <star/></set>! Need some help?</li>
+          <li>Great Evening, <set name="name"> <star/></set>! Can I assist you with any thing?</li>
+          <li>Hello <set name="name"> <star/></set>! You good? Need any help?</li>
+          <li>Hi <set name="name"> <star/></set>, how can I help you?</li>
+          <li>Hello <set name="name"> <star/></set>, how can I help you?</li>
+          </random></template>
+</category>
 <category><pattern>GOOD MORNING</pattern>
-<template>Hello and how are you this morning?</template>
+<template><random>
+          <li>Hello there! How may I assist you?</li>
+          <li>Good Morning! Need some help?</li>
+          <li>Great Morning! Can I assist you with any thing?</li>
+          <li>Hello! You good? Need any help?</li>
+          <li>Hi how can I help you?</li>
+          <li>Hello how can I help you?</li>
+          </random></template>
+</category>
+<category><pattern>GOOD AFTERNOON</pattern>
+<template><random>
+          <li>Hello there! How may I assist you?</li>
+          <li>Good Afternoon! Need some help?</li>
+          <li>Great Afternoon! Can I assist you with any thing?</li>
+          <li>Hello! You good? Need any help?</li>
+          <li>Hi how can I help you?</li>
+          <li>Hello how can I help you?</li>
+          </random></template>
+</category>
+<category><pattern>GOOD EVENING</pattern>
+<template><random>
+          <li>Hello there! How may I assist you?</li>
+          <li>Good Evening! Need some help?</li>
+          <li>Great Evening! Can I assist you with any thing?</li>
+          <li>Hello! You good? Need any help?</li>
+          <li>Hi how can I help you?</li>
+          <li>Hello how can I help you?</li>
+          </random></template>
+</category>
+<category><pattern>* GOOD EVENING</pattern>
+<template><random>
+          <li>Hello there! How may I assist you?</li>
+          <li>Good Evening! Need some help?</li>
+          <li>Great Evening! Can I assist you with any thing?</li>
+          <li>Hello! You good? Need any help?</li>
+          <li>Hi how can I help you?</li>
+          <li>Hello how can I help you?</li>
+          </random></template>
+</category>
+<category><pattern>GOOD EVENING *</pattern>
+<template><random>
+          <li>Hello there! How may I assist you?</li>
+          <li>Good Evening! Need some help?</li>
+          <li>Great Evening! Can I assist you with any thing?</li>
+          <li>Hello! You good? Need any help?</li>
+          <li>Hi how can I help you?</li>
+          <li>Hello how can I help you?</li>
+          </random></template>
+</category>
+<category><pattern>* GOOD EVENING *</pattern>
+<template><random>
+          <li>Hello there! How may I assist you?</li>
+          <li>Good Evening! Need some help?</li>
+          <li>Great Evening! Can I assist you with any thing?</li>
+          <li>Hello! You good? Need any help?</li>
+          <li>Hi how can I help you?</li>
+          <li>Hello how can I help you?</li>
+          </random></template>
 </category>
 <category><pattern>GOOD BY</pattern>
 <template><srai>bye</srai></template>
@@ -261,8 +363,7 @@
 <category><pattern>ADIEU</pattern>
 <template><srai>good bye</srai></template>
 </category>
-<category><pattern>GOODBYE</pattern>
-<that>SEE YOU LATER</that>
+<category><pattern>GOODBYE</pattern><that>SEE YOU LATER</that>
 <template><srai>bye</srai></template>
 </category>
 <category><pattern>GO HOME</pattern>
@@ -272,7 +373,7 @@
 <template>Does CIAO mean hello or goodbye?</template>
 </category>
 <category><pattern>CIAO MEANS GOODBYE</pattern>
-<template><srai>but</srai></template>
+<template><srai>But... okay then. Bye!</srai></template>
 </category>
 <category><pattern>HOLA IS HELLO *</pattern>
 <template><srai>hola</srai></template>
@@ -301,8 +402,245 @@
 <category><pattern>HELLO HOW ARE YOU</pattern>
 <template>I am fine thank you how are you?</template>
 </category>
+<category><pattern>* I AM FINE *</pattern>
+<template><random>
+                    <li>Thats great to hear! How may I assist you?</li>
+                    <li>Great! Need some help?</li>
+                    <li>We thank God! Can I assist you with any thing?</li>
+                    <li>Thats good to hear! Need any help?</li>
+                    <li>Thats great to know! Can I help you?</li>
+                    <li>Thats good to know! Whats the matter?</li>
+                    </random></template>
+</category>
+<category><pattern>I AM FINE</pattern>
+<template><random>
+                    <li>Thats great to hear! How may I assist you?</li>
+                    <li>Great! Need some help?</li>
+                    <li>We thank God! Can I assist you with any thing?</li>
+                    <li>Thats good to hear! Need any help?</li>
+                    <li>Thats great to know! Can I help you?</li>
+                    <li>Thats good to know! Whats the matter?</li>
+                    </random></template>
+</category>
+<category><pattern>I AM FINE *</pattern>
+<template><random>
+                    <li>Thats great to hear! How may I assist you?</li>
+                    <li>Great! Need some help?</li>
+                    <li>We thank God! Can I assist you with any thing?</li>
+                    <li>Thats good to hear! Need any help?</li>
+                    <li>Thats great to know! Can I help you?</li>
+                    <li>Thats good to know! Whats the matter?</li>
+                    </random></template>
+</category>
+<category><pattern>* I AM FINE</pattern>
+<template><random>
+                    <li>Thats great to hear! How may I assist you?</li>
+                    <li>Great! Need some help?</li>
+                    <li>We thank God! Can I assist you with any thing?</li>
+                    <li>Thats good to hear! Need any help?</li>
+                    <li>Thats great to know! Can I help you?</li>
+                    <li>Thats good to know! Whats the matter?</li>
+                    </random></template>
+</category>
+<category><pattern>* I AM GOOD *</pattern>
+<template><random>
+                    <li>Thats great to hear! How may I assist you?</li>
+                    <li>Great! Need some help?</li>
+                    <li>We thank God! Can I assist you with any thing?</li>
+                    <li>Thats good to hear! Need any help?</li>
+                    <li>Thats great to know! Can I help you?</li>
+                    <li>Thats good to know! Whats the matter?</li>
+                    </random></template>
+</category>
+<category><pattern>I AM GOOD</pattern>
+<template><random>
+                    <li>Thats great to hear! How may I assist you?</li>
+                    <li>Great! Need some help?</li>
+                    <li>We thank God! Can I assist you with any thing?</li>
+                    <li>Thats good to hear! Need any help?</li>
+                    <li>Thats great to know! Can I help you?</li>
+                    <li>Thats good to know! Whats the matter?</li>
+                    </random></template>
+</category>
+<category><pattern>I AM GOOD *</pattern>
+<template><random>
+                    <li>Thats great to hear! How may I assist you?</li>
+                    <li>Great! Need some help?</li>
+                    <li>We thank God! Can I assist you with any thing?</li>
+                    <li>Thats good to hear! Need any help?</li>
+                    <li>Thats great to know! Can I help you?</li>
+                    <li>Thats good to know! Whats the matter?</li>
+                    </random></template>
+</category>
+<category><pattern>* I AM GOOD</pattern>
+<template><random>
+                    <li>Thats great to hear! How may I assist you?</li>
+                    <li>Great! Need some help?</li>
+                    <li>We thank God! Can I assist you with any thing?</li>
+                    <li>Thats good to hear! Need any help?</li>
+                    <li>Thats great to know! Can I help you?</li>
+                    <li>Thats good to know! Whats the matter?</li>
+                    </random></template>
+</category>
+<category><pattern>* I AM GREAT *</pattern>
+<template><random>
+                    <li>Thats great to hear! How may I assist you?</li>
+                    <li>Great! Need some help?</li>
+                    <li>We thank God! Can I assist you with any thing?</li>
+                    <li>Thats good to hear! Need any help?</li>
+                    <li>Thats great to know! Can I help you?</li>
+                    <li>Thats good to know! Whats the matter?</li>
+                    </random></template>
+</category>
+<category><pattern>I AM GREAT *</pattern>
+<template><random>
+                    <li>Thats great to hear! How may I assist you?</li>
+                    <li>Great! Need some help?</li>
+                    <li>We thank God! Can I assist you with any thing?</li>
+                    <li>Thats good to hear! Need any help?</li>
+                    <li>Thats great to know! Can I help you?</li>
+                    <li>Thats good to know! Whats the matter?</li>
+                    </random></template>
+</category>
+<category><pattern>I AM GREAT</pattern>
+<template><random>
+                    <li>Thats great to hear! How may I assist you?</li>
+                    <li>Great! Need some help?</li>
+                    <li>We thank God! Can I assist you with any thing?</li>
+                    <li>Thats good to hear! Need any help?</li>
+                    <li>Thats great to know! Can I help you?</li>
+                    <li>Thats good to know! Whats the matter?</li>
+                    </random></template>
+</category>
+<category><pattern>* I AM GREAT</pattern>
+<template><random>
+                    <li>Thats great to hear! How may I assist you?</li>
+                    <li>Great! Need some help?</li>
+                    <li>We thank God! Can I assist you with any thing?</li>
+                    <li>Thats good to hear! Need any help?</li>
+                    <li>Thats great to know! Can I help you?</li>
+                    <li>Thats good to know! Whats the matter?</li>
+                    </random></template>
+</category>
+<category><pattern>* I AM WELL *</pattern>
+<template><random>
+                    <li>Thats great to hear! How may I assist you?</li>
+                    <li>Great! Need some help?</li>
+                    <li>We thank God! Can I assist you with any thing?</li>
+                    <li>Thats good to hear! Need any help?</li>
+                    <li>Thats great to know! Can I help you?</li>
+                    <li>Thats good to know! Whats the matter?</li>
+                    </random></template>
+</category>
+<category><pattern>I AM WELL *</pattern>
+<template><random>
+                    <li>Thats great to hear! How may I assist you?</li>
+                    <li>Great! Need some help?</li>
+                    <li>We thank God! Can I assist you with any thing?</li>
+                    <li>Thats good to hear! Need any help?</li>
+                    <li>Thats great to know! Can I help you?</li>
+                    <li>Thats good to know! Whats the matter?</li>
+                    </random></template>
+</category>
+<category><pattern>I AM WELL</pattern>
+<template><random>
+                    <li>Thats great to hear! How may I assist you?</li>
+                    <li>Great! Need some help?</li>
+                    <li>We thank God! Can I assist you with any thing?</li>
+                    <li>Thats good to hear! Need any help?</li>
+                    <li>Thats great to know! Can I help you?</li>
+                    <li>Thats good to know! Whats the matter?</li>
+                    </random></template>
+</category>
+<category><pattern>* I AM WELL</pattern>
+<template><random>
+                    <li>Thats great to hear! How may I assist you?</li>
+                    <li>Great! Need some help?</li>
+                    <li>We thank God! Can I assist you with any thing?</li>
+                    <li>Thats good to hear! Need any help?</li>
+                    <li>Thats great to know! Can I help you?</li>
+                    <li>Thats good to know! Whats the matter?</li>
+                    </random></template>
+</category>
 <category><pattern>HELLO</pattern>
-<template><random><li><srai>HI</srai></li><li>Hi there!</li></random></template>
+<template><random>
+          <li>Hello there! How may I assist you?</li>
+          <li>Hey! Need some help?</li>
+          <li>Great Day! Can I assist you with any thing?</li>
+          <li>Hello! You good? Need any help?</li>
+          <li>Hi how can I help you?</li>
+          <li>Hello how can I help you?</li>
+          </random></template>
+</category>
+<category><pattern>* HELLO</pattern>
+<template><random>
+          <li>Hello there! How may I assist you?</li>
+          <li>Hey! Need some help?</li>
+          <li>Great Day! Can I assist you with any thing?</li>
+          <li>Hello! You good? Need any help?</li>
+          <li>Hi how can I help you?</li>
+          <li>Hello how can I help you?</li>
+          </random></template>
+</category>
+<category><pattern>HELLO *</pattern>
+<template><random>
+          <li>Hello there! How may I assist you?</li>
+          <li>Hey! Need some help?</li>
+          <li>Great Day! Can I assist you with any thing?</li>
+          <li>Hello! You good? Need any help?</li>
+          <li>Hi how can I help you?</li>
+          <li>Hello how can I help you?</li>
+          </random></template>
+</category>
+<category><pattern>* HELLO *</pattern>
+<template><random>
+          <li>Hello there! How may I assist you?</li>
+          <li>Hey! Need some help?</li>
+          <li>Great Day! Can I assist you with any thing?</li>
+          <li>Hello! You good? Need any help?</li>
+          <li>Hi how can I help you?</li>
+          <li>Hello how can I help you?</li>
+          </random></template>
+</category>
+<category><pattern>HI</pattern>
+<template><random>
+          <li>Hello there! How may I assist you?</li>
+          <li>Hey! Need some help?</li>
+          <li>Great Day! Can I assist you with any thing?</li>
+          <li>Hello! You good? Need any help?</li>
+          <li>Hi how can I help you?</li>
+          <li>Hello how can I help you?</li>
+          </random></template>
+</category>
+<category><pattern>HI *</pattern>
+<template><random>
+          <li>Hello there! How may I assist you?</li>
+          <li>Hey! Need some help?</li>
+          <li>Great Day! Can I assist you with any thing?</li>
+          <li>Hello! You good? Need any help?</li>
+          <li>Hi how can I help you?</li>
+          <li>Hello how can I help you?</li>
+          </random></template>
+</category>
+<category><pattern>* HI</pattern>
+<template><random>
+          <li>Hello there! How may I assist you?</li>
+          <li>Hey! Need some help?</li>
+          <li>Great Day! Can I assist you with any thing?</li>
+          <li>Hello! You good? Need any help?</li>
+          <li>Hi how can I help you?</li>
+          <li>Hello how can I help you?</li>
+          </random></template>
+</category>
+<category><pattern>* HI *</pattern>
+<template><random>
+          <li>Hello there! How may I assist you?</li>
+          <li>Hey! Need some help?</li>
+          <li>Great Day! Can I assist you with any thing?</li>
+          <li>Hello! You good? Need any help?</li>
+          <li>Hi how can I help you?</li>
+          <li>Hello how can I help you?</li>
+          </random></template>
 </category>
 <category><pattern>HULLO</pattern>
 <template><srai>hello</srai></template>
@@ -329,6 +667,18 @@
 <template><srai>bye</srai></template>
 </category>
 <category><pattern>MOOSHI MOOSHI</pattern>
+<template><srai>hello</srai></template>
+</category>
+<category><pattern>HEY</pattern>
+<template><srai>hello</srai></template>
+</category>
+<category><pattern>HEY *</pattern>
+<template><srai>hello</srai></template>
+</category>
+<category><pattern>HEY!</pattern>
+<template><srai>hello</srai></template>
+</category>
+<category><pattern>HEY! *</pattern>
 <template><srai>hello</srai></template>
 </category>
 <category><pattern>BONJOUR MEANS HELLO</pattern>
@@ -359,6 +709,51 @@
 <template><srai>hello</srai></template>
 </category>
 <category><pattern>REPLY</pattern>
+<template><srai>hello</srai></template>
+</category>
+<category><pattern>SUP</pattern>
+<template><srai>hello</srai></template>
+</category>
+<category><pattern>* SUP</pattern>
+<template><srai>hello</srai></template>
+</category>
+<category><pattern>SUP *</pattern>
+<template><srai>hello</srai></template>
+</category>
+<category><pattern>YO! *</pattern>
+<template><srai>hello</srai></template>
+</category>
+<category><pattern>YO *</pattern>
+<template><srai>hello</srai></template>
+</category>
+<category><pattern>* YO!</pattern>
+<template><srai>hello</srai></template>
+</category>
+<category><pattern>* YO</pattern>
+<template><srai>hello</srai></template>
+</category>
+<category><pattern>YO!</pattern>
+<template><srai>hello</srai></template>
+</category>
+<category><pattern>YO</pattern>
+<template><srai>hello</srai></template>
+</category>
+<category><pattern>HOLA *</pattern>
+<template><srai>hello</srai></template>
+</category>
+<category><pattern>HOLLA *</pattern>
+<template><srai>hello</srai></template>
+</category>
+<category><pattern>* HOLA</pattern>
+<template><srai>hello</srai></template>
+</category>
+<category><pattern>* HOLLA</pattern>
+<template><srai>hello</srai></template>
+</category>
+<category><pattern>HOLA</pattern>
+<template><srai>hello</srai></template>
+</category>
+<category><pattern>HOLLA</pattern>
 <template><srai>hello</srai></template>
 </category>
 </aiml>
