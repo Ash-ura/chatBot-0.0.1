@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+	<!-- insert your AIML categories here -->
+<category>
+	<pattern>* GET A PASSPORT</pattern>
+	<template>The online application process is as follows: Visit passport.mfa.gov.gh. 
+	Click on Login With Ghana.gov to create an account. Click on Sign Up when you are redirected to the Ghana.gov website. 
+	Enter your email address and phone number to complete the account creation process. Enter the verification code sent to you to proceed. 
+	Click on Authorise to enable Ghana.gov to share the details with the Passports Online Application. After clicking on Authorise, you will be redirected to the passports website, click on “Make Payment” to proceed. 
+	Fill in the details to continue with the payment. Click on Make Payment. Click on Leave Site. 
+	Upon redirection to check out the invoice, scroll down and click on Pay. Select the Payment Method of your choice. 
+	Select Mobile Money {if you want to pay with mobile money}. Select either MTN Mobile Money or Vodafone Cash. 
+	Enter the phone number {If you are using mobile money to make payment, make sure that the number you input for the payment is the same you used to register for the account otherwise, use *222# to pay.}. Click on Continue. 
+	Confirm the number and then click on Pay. To complete the payment, enter your pin when you receive the prompt on your phone. After entering the pin, payment will be confirmed and a form will be issued into your account. 
+	Complete all details on the form. Sign the declaration form. Book a date you will like to go to the passport office for the verification of your documents and to take your biometric details (i.e. photograph and fingerprints). 
+	Attend your appointment at the passport office (i.e. for verification of your documents and to take your biometric details). You will receive an SMS on your phone from the passport  office when your passport is ready for collection. Go to the passport office on the date stated to collect your passport.
+
+Hope that helps!
+</template>
+</category>
+<category>
+	<pattern>HOW * PASSPORT</pattern>
+	<template>The online application process is as follows: Visit passport.mfa.gov.gh. 
+	Click on Login With Ghana.gov to create an account. Click on Sign Up when you are redirected to the Ghana.gov website. 
+	Enter your email address and phone number to complete the account creation process. Enter the verification code sent to you to proceed. 
+	Click on Authorise to enable Ghana.gov to share the details with the Passports Online Application. After clicking on Authorise, you will be redirected to the passports website, click on “Make Payment” to proceed. 
+	Fill in the details to continue with the payment. Click on Make Payment. Click on Leave Site. 
+	Upon redirection to check out the invoice, scroll down and click on Pay. Select the Payment Method of your choice. 
+	Select Mobile Money {if you want to pay with mobile money}. Select either MTN Mobile Money or Vodafone Cash. 
+	Enter the phone number {If you are using mobile money to make payment, make sure that the number you input for the payment is the same you used to register for the account otherwise, use *222# to pay.}. Click on Continue. 
+	Confirm the number and then click on Pay. To complete the payment, enter your pin when you receive the prompt on your phone. After entering the pin, payment will be confirmed and a form will be issued into your account. 
+	Complete all details on the form. Sign the declaration form. Book a date you will like to go to the passport office for the verification of your documents and to take your biometric details (i.e. photograph and fingerprints). 
+	Attend your appointment at the passport office (i.e. for verification of your documents and to take your biometric details). You will receive an SMS on your phone from the passport  office when your passport is ready for collection. Go to the passport office on the date stated to collect your passport.
+
+Hope that helps!
+</template>
+</category>
+<category>
+	<pattern>* APPLY * PASSPORT</pattern>
+	<template>The online application process is as follows: Visit passport.mfa.gov.gh. 
+	Click on Login With Ghana.gov to create an account. Click on Sign Up when you are redirected to the Ghana.gov website. 
+	Enter your email address and phone number to complete the account creation process. Enter the verification code sent to you to proceed. 
+	Click on Authorise to enable Ghana.gov to share the details with the Passports Online Application. After clicking on Authorise, you will be redirected to the passports website, click on “Make Payment” to proceed. 
+	Fill in the details to continue with the payment. Click on Make Payment. Click on Leave Site. 
+	Upon redirection to check out the invoice, scroll down and click on Pay. Select the Payment Method of your choice. 
+	Select Mobile Money {if you want to pay with mobile money}. Select either MTN Mobile Money or Vodafone Cash. 
+	Enter the phone number {If you are using mobile money to make payment, make sure that the number you input for the payment is the same you used to register for the account otherwise, use *222# to pay.}. Click on Continue. 
+	Confirm the number and then click on Pay. To complete the payment, enter your pin when you receive the prompt on your phone. After entering the pin, payment will be confirmed and a form will be issued into your account. 
+	Complete all details on the form. Sign the declaration form. Book a date you will like to go to the passport office for the verification of your documents and to take your biometric details (i.e. photograph and fingerprints). 
+	Attend your appointment at the passport office (i.e. for verification of your documents and to take your biometric details). You will receive an SMS on your phone from the passport  office when your passport is ready for collection. Go to the passport office on the date stated to collect your passport.
+
+Hope that helps!
+</template>
+</category>
+<category>
+	<pattern>I WANT A PASSPORT</pattern>
+	<template>The online application process is as follows: Visit passport.mfa.gov.gh. 
+	Click on Login With Ghana.gov to create an account. Click on Sign Up when you are redirected to the Ghana.gov website. 
+	Enter your email address and phone number to complete the account creation process. Enter the verification code sent to you to proceed. 
+	Click on Authorise to enable Ghana.gov to share the details with the Passports Online Application. After clicking on Authorise, you will be redirected to the passports website, click on “Make Payment” to proceed. 
+	Fill in the details to continue with the payment. Click on Make Payment. Click on Leave Site. 
+	Upon redirection to check out the invoice, scroll down and click on Pay. Select the Payment Method of your choice. 
+	Select Mobile Money {if you want to pay with mobile money}. Select either MTN Mobile Money or Vodafone Cash. 
+	Enter the phone number {If you are using mobile money to make payment, make sure that the number you input for the payment is the same you used to register for the account otherwise, use *222# to pay.}. Click on Continue. 
+	Confirm the number and then click on Pay. To complete the payment, enter your pin when you receive the prompt on your phone. After entering the pin, payment will be confirmed and a form will be issued into your account. 
+	Complete all details on the form. Sign the declaration form. Book a date you will like to go to the passport office for the verification of your documents and to take your biometric details (i.e. photograph and fingerprints). 
+	Attend your appointment at the passport office (i.e. for verification of your documents and to take your biometric details). You will receive an SMS on your phone from the passport  office when your passport is ready for collection. Go to the passport office on the date stated to collect your passport.
+
+Hope that helps!
+</template>
+</category>
+<category>
+	<pattern>I WANT PASSPORT</pattern>
+	<template>The online application process is as follows: Visit passport.mfa.gov.gh. 
+	Click on Login With Ghana.gov to create an account. Click on Sign Up when you are redirected to the Ghana.gov website. 
+	Enter your email address and phone number to complete the account creation process. Enter the verification code sent to you to proceed. 
+	Click on Authorise to enable Ghana.gov to share the details with the Passports Online Application. After clicking on Authorise, you will be redirected to the passports website, click on “Make Payment” to proceed. 
+	Fill in the details to continue with the payment. Click on Make Payment. Click on Leave Site. 
+	Upon redirection to check out the invoice, scroll down and click on Pay. Select the Payment Method of your choice. 
+	Select Mobile Money {if you want to pay with mobile money}. Select either MTN Mobile Money or Vodafone Cash. 
+	Enter the phone number {If you are using mobile money to make payment, make sure that the number you input for the payment is the same you used to register for the account otherwise, use *222# to pay.}. Click on Continue. 
+	Confirm the number and then click on Pay. To complete the payment, enter your pin when you receive the prompt on your phone. After entering the pin, payment will be confirmed and a form will be issued into your account. 
+	Complete all details on the form. Sign the declaration form. Book a date you will like to go to the passport office for the verification of your documents and to take your biometric details (i.e. photograph and fingerprints). 
+	Attend your appointment at the passport office (i.e. for verification of your documents and to take your biometric details). You will receive an SMS on your phone from the passport  office when your passport is ready for collection. Go to the passport office on the date stated to collect your passport.
+
+Hope that helps!
+</template>
+</category>
+<category>
+	<pattern>I WANT A PASSPORT *</pattern>
+	<template>The online application process is as follows: Visit passport.mfa.gov.gh. 
+	Click on Login With Ghana.gov to create an account. Click on Sign Up when you are redirected to the Ghana.gov website. 
+	Enter your email address and phone number to complete the account creation process. Enter the verification code sent to you to proceed. 
+	Click on Authorise to enable Ghana.gov to share the details with the Passports Online Application. After clicking on Authorise, you will be redirected to the passports website, click on “Make Payment” to proceed. 
+	Fill in the details to continue with the payment. Click on Make Payment. Click on Leave Site. 
+	Upon redirection to check out the invoice, scroll down and click on Pay. Select the Payment Method of your choice. 
+	Select Mobile Money {if you want to pay with mobile money}. Select either MTN Mobile Money or Vodafone Cash. 
+	Enter the phone number {If you are using mobile money to make payment, make sure that the number you input for the payment is the same you used to register for the account otherwise, use *222# to pay.}. Click on Continue. 
+	Confirm the number and then click on Pay. To complete the payment, enter your pin when you receive the prompt on your phone. After entering the pin, payment will be confirmed and a form will be issued into your account. 
+	Complete all details on the form. Sign the declaration form. Book a date you will like to go to the passport office for the verification of your documents and to take your biometric details (i.e. photograph and fingerprints). 
+	Attend your appointment at the passport office (i.e. for verification of your documents and to take your biometric details). You will receive an SMS on your phone from the passport  office when your passport is ready for collection. Go to the passport office on the date stated to collect your passport.
+
+Hope that helps!
+</template>
+</category>
+<category>
+	<pattern>* I WANT A PASSPORT</pattern>
+	<template>The online application process is as follows: Visit passport.mfa.gov.gh. 
+	Click on Login With Ghana.gov to create an account. Click on Sign Up when you are redirected to the Ghana.gov website. 
+	Enter your email address and phone number to complete the account creation process. Enter the verification code sent to you to proceed. 
+	Click on Authorise to enable Ghana.gov to share the details with the Passports Online Application. After clicking on Authorise, you will be redirected to the passports website, click on “Make Payment” to proceed. 
+	Fill in the details to continue with the payment. Click on Make Payment. Click on Leave Site. 
+	Upon redirection to check out the invoice, scroll down and click on Pay. Select the Payment Method of your choice. 
+	Select Mobile Money {if you want to pay with mobile money}. Select either MTN Mobile Money or Vodafone Cash. 
+	Enter the phone number {If you are using mobile money to make payment, make sure that the number you input for the payment is the same you used to register for the account otherwise, use *222# to pay.}. Click on Continue. 
+	Confirm the number and then click on Pay. To complete the payment, enter your pin when you receive the prompt on your phone. After entering the pin, payment will be confirmed and a form will be issued into your account. 
+	Complete all details on the form. Sign the declaration form. Book a date you will like to go to the passport office for the verification of your documents and to take your biometric details (i.e. photograph and fingerprints). 
+	Attend your appointment at the passport office (i.e. for verification of your documents and to take your biometric details). You will receive an SMS on your phone from the passport  office when your passport is ready for collection. Go to the passport office on the date stated to collect your passport.
+
+Hope that helps!
+</template>
+</category>
+<category>
+	<pattern>* I WANT PASSPORT</pattern>
+	<template>The online application process is as follows: Visit passport.mfa.gov.gh. 
+	Click on Login With Ghana.gov to create an account. Click on Sign Up when you are redirected to the Ghana.gov website. 
+	Enter your email address and phone number to complete the account creation process. Enter the verification code sent to you to proceed. 
+	Click on Authorise to enable Ghana.gov to share the details with the Passports Online Application. After clicking on Authorise, you will be redirected to the passports website, click on “Make Payment” to proceed. 
+	Fill in the details to continue with the payment. Click on Make Payment. Click on Leave Site. 
+	Upon redirection to check out the invoice, scroll down and click on Pay. Select the Payment Method of your choice. 
+	Select Mobile Money {if you want to pay with mobile money}. Select either MTN Mobile Money or Vodafone Cash. 
+	Enter the phone number {If you are using mobile money to make payment, make sure that the number you input for the payment is the same you used to register for the account otherwise, use *222# to pay.}. Click on Continue. 
+	Confirm the number and then click on Pay. To complete the payment, enter your pin when you receive the prompt on your phone. After entering the pin, payment will be confirmed and a form will be issued into your account. 
+	Complete all details on the form. Sign the declaration form. Book a date you will like to go to the passport office for the verification of your documents and to take your biometric details (i.e. photograph and fingerprints). 
+	Attend your appointment at the passport office (i.e. for verification of your documents and to take your biometric details). You will receive an SMS on your phone from the passport  office when your passport is ready for collection. Go to the passport office on the date stated to collect your passport.
+
+Hope that helps!
+</template>
+</category>
+<category>
+	<pattern>I WANT PASSPORT *</pattern>
+	<template>The online application process is as follows: Visit passport.mfa.gov.gh. 
+	Click on Login With Ghana.gov to create an account. Click on Sign Up when you are redirected to the Ghana.gov website. 
+	Enter your email address and phone number to complete the account creation process. Enter the verification code sent to you to proceed. 
+	Click on Authorise to enable Ghana.gov to share the details with the Passports Online Application. After clicking on Authorise, you will be redirected to the passports website, click on “Make Payment” to proceed. 
+	Fill in the details to continue with the payment. Click on Make Payment. Click on Leave Site. 
+	Upon redirection to check out the invoice, scroll down and click on Pay. Select the Payment Method of your choice. 
+	Select Mobile Money {if you want to pay with mobile money}. Select either MTN Mobile Money or Vodafone Cash. 
+	Enter the phone number {If you are using mobile money to make payment, make sure that the number you input for the payment is the same you used to register for the account otherwise, use *222# to pay.}. Click on Continue. 
+	Confirm the number and then click on Pay. To complete the payment, enter your pin when you receive the prompt on your phone. After entering the pin, payment will be confirmed and a form will be issued into your account. 
+	Complete all details on the form. Sign the declaration form. Book a date you will like to go to the passport office for the verification of your documents and to take your biometric details (i.e. photograph and fingerprints). 
+	Attend your appointment at the passport office (i.e. for verification of your documents and to take your biometric details). You will receive an SMS on your phone from the passport  office when your passport is ready for collection. Go to the passport office on the date stated to collect your passport.
+
+Hope that helps!
+</template>
+</category>
+<category>
+	<pattern>* ACQUIRE * PASSPORT</pattern>
+	<template>The online application process is as follows: Visit passport.mfa.gov.gh. 
+	Click on Login With Ghana.gov to create an account. Click on Sign Up when you are redirected to the Ghana.gov website. 
+	Enter your email address and phone number to complete the account creation process. Enter the verification code sent to you to proceed. 
+	Click on Authorise to enable Ghana.gov to share the details with the Passports Online Application. After clicking on Authorise, you will be redirected to the passports website, click on “Make Payment” to proceed. 
+	Fill in the details to continue with the payment. Click on Make Payment. Click on Leave Site. 
+	Upon redirection to check out the invoice, scroll down and click on Pay. Select the Payment Method of your choice. 
+	Select Mobile Money {if you want to pay with mobile money}. Select either MTN Mobile Money or Vodafone Cash. 
+	Enter the phone number {If you are using mobile money to make payment, make sure that the number you input for the payment is the same you used to register for the account otherwise, use *222# to pay.}. Click on Continue. 
+	Confirm the number and then click on Pay. To complete the payment, enter your pin when you receive the prompt on your phone. After entering the pin, payment will be confirmed and a form will be issued into your account. 
+	Complete all details on the form. Sign the declaration form. Book a date you will like to go to the passport office for the verification of your documents and to take your biometric details (i.e. photograph and fingerprints). 
+	Attend your appointment at the passport office (i.e. for verification of your documents and to take your biometric details). You will receive an SMS on your phone from the passport  office when your passport is ready for collection. Go to the passport office on the date stated to collect your passport.
+
+Hope that helps!
+</template>
+</category>
+<category>
+	<pattern>* COST * APPLICATION FORM</pattern>
+	<template>The cost and duration of an application form are: GHS150.00 Expedited application 32 pages (4 to 5 weeks to be ready). GHS200.00 Expedited application 48 pages (4 to 5 weeks to be ready). GHS 100.00 Standard application 32 pages (5 to 6 weeks to be ready). GHS 150.00 Standard application 48 pages (5 to 6 weeks to be ready).</template>
+</category>
+<category>
+	<pattern>* COST * FORM</pattern>
+	<template>The cost and duration of an application form are: GHS150.00 Expedited application 32 pages (4 to 5 weeks to be ready). GHS200.00 Expedited application 48 pages (4 to 5 weeks to be ready). GHS 100.00 Standard application 32 pages (5 to 6 weeks to be ready). GHS 150.00 Standard application 48 pages (5 to 6 weeks to be ready).</template>
+</category>
+<category>
+	<pattern>* PRICE * APPLICATION FORM</pattern>
+	<template>The cost and duration of an application form are: GHS150.00 Expedited application 32 pages (4 to 5 weeks to be ready). GHS200.00 Expedited application 48 pages (4 to 5 weeks to be ready). GHS 100.00 Standard application 32 pages (5 to 6 weeks to be ready). GHS 150.00 Standard application 48 pages (5 to 6 weeks to be ready).</template>
+</category>
+<category>
+	<pattern>* PRICE * FORM</pattern>
+	<template>The cost and duration of an application form are: GHS150.00 Expedited application 32 pages (4 to 5 weeks to be ready). GHS200.00 Expedited application 48 pages (4 to 5 weeks to be ready). GHS 100.00 Standard application 32 pages (5 to 6 weeks to be ready). GHS 150.00 Standard application 48 pages (5 to 6 weeks to be ready).</template>
+</category>
+<category>
+	<pattern>* APPLICATION FORM * PRICE</pattern>
+	<template>The cost and duration of an application form are: GHS150.00 Expedited application 32 pages (4 to 5 weeks to be ready). GHS200.00 Expedited application 48 pages (4 to 5 weeks to be ready). GHS 100.00 Standard application 32 pages (5 to 6 weeks to be ready). GHS 150.00 Standard application 48 pages (5 to 6 weeks to be ready).</template>
+</category>
+<category>
+	<pattern>* FORM * PRICE</pattern>
+	<template>The cost and duration of an application form are: GHS150.00 Expedited application 32 pages (4 to 5 weeks to be ready). GHS200.00 Expedited application 48 pages (4 to 5 weeks to be ready). GHS 100.00 Standard application 32 pages (5 to 6 weeks to be ready). GHS 150.00 Standard application 48 pages (5 to 6 weeks to be ready).</template>
+</category>
+<category>
+	<pattern>* APPLICATION FORM * COST</pattern>
+	<template>The cost and duration of an application form are: GHS150.00 Expedited application 32 pages (4 to 5 weeks to be ready). GHS200.00 Expedited application 48 pages (4 to 5 weeks to be ready). GHS 100.00 Standard application 32 pages (5 to 6 weeks to be ready). GHS 150.00 Standard application 48 pages (5 to 6 weeks to be ready).</template>
+</category>
+<category>
+	<pattern>* FORM * COST</pattern>
+	<template>The cost and duration of an application form are: GHS150.00 Expedited application 32 pages (4 to 5 weeks to be ready). GHS200.00 Expedited application 48 pages (4 to 5 weeks to be ready). GHS 100.00 Standard application 32 pages (5 to 6 weeks to be ready). GHS 150.00 Standard application 48 pages (5 to 6 weeks to be ready).</template>
+</category>
+<category>
+	<pattern>* HOW MUCH * APPLICATION FORM *</pattern>
+	<template>The cost and duration of an application form are: GHS150.00 Expedited application 32 pages (4 to 5 weeks to be ready). GHS200.00 Expedited application 48 pages (4 to 5 weeks to be ready). GHS 100.00 Standard application 32 pages (5 to 6 weeks to be ready). GHS 150.00 Standard application 48 pages (5 to 6 weeks to be ready).</template>
+</category>
+<category>
+	<pattern>* HOW MUCH * FORM *</pattern>
+	<template>The cost and duration of an application form are: GHS150.00 Expedited application 32 pages (4 to 5 weeks to be ready). GHS200.00 Expedited application 48 pages (4 to 5 weeks to be ready). GHS 100.00 Standard application 32 pages (5 to 6 weeks to be ready). GHS 150.00 Standard application 48 pages (5 to 6 weeks to be ready).</template>
+</category>
+<category>
+	<pattern>HOW MUCH * APPLICATION FORM *</pattern>
+	<template>The cost and duration of an application form are: GHS150.00 Expedited application 32 pages (4 to 5 weeks to be ready). GHS200.00 Expedited application 48 pages (4 to 5 weeks to be ready). GHS 100.00 Standard application 32 pages (5 to 6 weeks to be ready). GHS 150.00 Standard application 48 pages (5 to 6 weeks to be ready).</template>
+</category>
+<category>
+	<pattern>HOW MUCH * FORM *</pattern>
+	<template>The cost and duration of an application form are: GHS150.00 Expedited application 32 pages (4 to 5 weeks to be ready). GHS200.00 Expedited application 48 pages (4 to 5 weeks to be ready). GHS 100.00 Standard application 32 pages (5 to 6 weeks to be ready). GHS 150.00 Standard application 48 pages (5 to 6 weeks to be ready).</template>
+</category>
+<category>
+	<pattern>* HOW MUCH * APPLICATION FORM</pattern>
+	<template>The cost and duration of an application form are: GHS150.00 Expedited application 32 pages (4 to 5 weeks to be ready). GHS200.00 Expedited application 48 pages (4 to 5 weeks to be ready). GHS 100.00 Standard application 32 pages (5 to 6 weeks to be ready). GHS 150.00 Standard application 48 pages (5 to 6 weeks to be ready).</template>
+</category>
+<category>
+	<pattern>* HOW MUCH * FORM</pattern>
+	<template>The cost and duration of an application form are: GHS150.00 Expedited application 32 pages (4 to 5 weeks to be ready). GHS200.00 Expedited application 48 pages (4 to 5 weeks to be ready). GHS 100.00 Standard application 32 pages (5 to 6 weeks to be ready). GHS 150.00 Standard application 48 pages (5 to 6 weeks to be ready).</template>
+</category>
+<category>
+	<pattern>HOW MUCH * APPLICATION FORM</pattern>
+	<template>The cost and duration of an application form are: GHS150.00 Expedited application 32 pages (4 to 5 weeks to be ready). GHS200.00 Expedited application 48 pages (4 to 5 weeks to be ready). GHS 100.00 Standard application 32 pages (5 to 6 weeks to be ready). GHS 150.00 Standard application 48 pages (5 to 6 weeks to be ready).</template>
+</category>
+<category>
+	<pattern>HOW MUCH * FORM</pattern>
+	<template>The cost and duration of an application form are: GHS150.00 Expedited application 32 pages (4 to 5 weeks to be ready). GHS200.00 Expedited application 48 pages (4 to 5 weeks to be ready). GHS 100.00 Standard application 32 pages (5 to 6 weeks to be ready). GHS 150.00 Standard application 48 pages (5 to 6 weeks to be ready).</template>
+</category>
+<category>
+	<pattern>HOW DO I APPLY FOR PASSPORT</pattern>
+	<template>The online application process is as follows: Visit passport.mfa.gov.gh.  	Click on Login With Ghana.gov to create an account. Click on Sign Up when you are redirected to the Ghana.gov website.  	Enter your email address and phone number to complete the account creation process. Enter the verification code sent to you to proceed.  	Click on Authorise to enable Ghana.gov to share the details with the Passports Online Application. After clicking on Authorise, you will be redirected to the passports website, click on “Make Payment” to proceed.  	Fill in the details to continue with the payment. Click on Make Payment. Click on Leave Site.  	Upon redirection to check out the invoice, scroll down and click on Pay. Select the Payment Method of your choice.  	Select Mobile Money {if you want to pay with mobile money}. Select either MTN Mobile Money or Vodafone Cash.  	Enter the phone number {If you are using mobile money to make payment, make sure that the number you input for the payment is the same you used to register for the account otherwise, use *222# to pay.}. Click on Continue.  	Confirm the number and then click on Pay. To complete the payment, enter your pin when you receive the prompt on your phone. After entering the pin, payment will be confirmed and a form will be issued into your account.  	Complete all details on the form. Sign the declaration form. Book a date you will like to go to the passport office for the verification of your documents and to take your biometric details (i.e. photograph and fingerprints).  	Attend your appointment at the passport office (i.e. for verification of your documents and to take your biometric details). You will receive an SMS on your phone from the passport  office when your passport is ready for collection. Go to the passport office on the date stated to collect your passport.  Hope that helps!</template>
+</category>
+<category>
+	<pattern>* WANT APPLICATION FORM</pattern>
+	<template>The online application process is as follows: Visit passport.mfa.gov.gh.  	Click on Login With Ghana.gov to create an account. Click on Sign Up when you are redirected to the Ghana.gov website.  	Enter your email address and phone number to complete the account creation process. Enter the verification code sent to you to proceed.  	Click on Authorise to enable Ghana.gov to share the details with the Passports Online Application. After clicking on Authorise, you will be redirected to the passports website, click on “Make Payment” to proceed.  	Fill in the details to continue with the payment. Click on Make Payment. Click on Leave Site.  	Upon redirection to check out the invoice, scroll down and click on Pay. Select the Payment Method of your choice.  	Select Mobile Money {if you want to pay with mobile money}. Select either MTN Mobile Money or Vodafone Cash.  	Enter the phone number {If you are using mobile money to make payment, make sure that the number you input for the payment is the same you used to register for the account otherwise, use *222# to pay.}. Click on Continue.  	Confirm the number and then click on Pay. To complete the payment, enter your pin when you receive the prompt on your phone. After entering the pin, payment will be confirmed and a form will be issued into your account.  	Complete all details on the form. Sign the declaration form. Book a date you will like to go to the passport office for the verification of your documents and to take your biometric details (i.e. photograph and fingerprints).  	Attend your appointment at the passport office (i.e. for verification of your documents and to take your biometric details). You will receive an SMS on your phone from the passport  office when your passport is ready for collection. Go to the passport office on the date stated to collect your passport.  Hope that helps!</template>
+</category>
+<category>
+	<pattern>* WANT FORM</pattern>
+	<template>The online application process is as follows: Visit passport.mfa.gov.gh.  	Click on Login With Ghana.gov to create an account. Click on Sign Up when you are redirected to the Ghana.gov website.  	Enter your email address and phone number to complete the account creation process. Enter the verification code sent to you to proceed.  	Click on Authorise to enable Ghana.gov to share the details with the Passports Online Application. After clicking on Authorise, you will be redirected to the passports website, click on “Make Payment” to proceed.  	Fill in the details to continue with the payment. Click on Make Payment. Click on Leave Site.  	Upon redirection to check out the invoice, scroll down and click on Pay. Select the Payment Method of your choice.  	Select Mobile Money {if you want to pay with mobile money}. Select either MTN Mobile Money or Vodafone Cash.  	Enter the phone number {If you are using mobile money to make payment, make sure that the number you input for the payment is the same you used to register for the account otherwise, use *222# to pay.}. Click on Continue.  	Confirm the number and then click on Pay. To complete the payment, enter your pin when you receive the prompt on your phone. After entering the pin, payment will be confirmed and a form will be issued into your account.  	Complete all details on the form. Sign the declaration form. Book a date you will like to go to the passport office for the verification of your documents and to take your biometric details (i.e. photograph and fingerprints).  	Attend your appointment at the passport office (i.e. for verification of your documents and to take your biometric details). You will receive an SMS on your phone from the passport  office when your passport is ready for collection. Go to the passport office on the date stated to collect your passport.  Hope that helps!</template>
+</category>
+<category>
+	<pattern>PASSPORT</pattern>
+	<template>The online application process is as follows: Visit passport.mfa.gov.gh.  	Click on Login With Ghana.gov to create an account. Click on Sign Up when you are redirected to the Ghana.gov website.  	Enter your email address and phone number to complete the account creation process. Enter the verification code sent to you to proceed.  	Click on Authorise to enable Ghana.gov to share the details with the Passports Online Application. After clicking on Authorise, you will be redirected to the passports website, click on “Make Payment” to proceed.  	Fill in the details to continue with the payment. Click on Make Payment. Click on Leave Site.  	Upon redirection to check out the invoice, scroll down and click on Pay. Select the Payment Method of your choice.  	Select Mobile Money {if you want to pay with mobile money}. Select either MTN Mobile Money or Vodafone Cash.  	Enter the phone number {If you are using mobile money to make payment, make sure that the number you input for the payment is the same you used to register for the account otherwise, use *222# to pay.}. Click on Continue.  	Confirm the number and then click on Pay. To complete the payment, enter your pin when you receive the prompt on your phone. After entering the pin, payment will be confirmed and a form will be issued into your account.  	Complete all details on the form. Sign the declaration form. Book a date you will like to go to the passport office for the verification of your documents and to take your biometric details (i.e. photograph and fingerprints).  	Attend your appointment at the passport office (i.e. for verification of your documents and to take your biometric details). You will receive an SMS on your phone from the passport  office when your passport is ready for collection. Go to the passport office on the date stated to collect your passport.  Hope that helps!</template>
+</category>
+
+<category>
+	<pattern>FORM</pattern>
+	<template>The cost and duration of an application form are: GHS150.00 Expedited application 32 pages (4 to 5 weeks to be ready). GHS200.00 Expedited application 48 pages (4 to 5 weeks to be ready). GHS 100.00 Standard application 32 pages (5 to 6 weeks to be ready). GHS 150.00 Standard application 48 pages (5 to 6 weeks to be ready).</template>
+</category>
+
+<category>
+	<pattern>* APPLY</pattern>
+	<template>The online application process is as follows: Visit passport.mfa.gov.gh. Click on Login With Ghana.gov to create an account. Click on Sign Up when you are redirected to the Ghana.gov website. Enter your email address and phone number to complete the account creation process. Enter the verification code sent to you to proceed. Click on Authorise to enable Ghana.gov to share the details with the Passports Online Application. After clicking on Authorise, you will be redirected to the passports website, click on “Make Payment” to proceed. Fill in the details to continue with the payment. Click on Make Payment. Click on Leave Site. Upon redirection to check out the invoice, scroll down and click on Pay. Select the Payment Method of your choice. Select Mobile Money {if you want to pay with mobile money}. Select either MTN Mobile Money or Vodafone Cash. Enter the phone number {If you are using mobile money to make payment, make sure that the number you input for the payment is the same you used to register for the account otherwise, use *222# to pay.}. Click on Continue. Confirm the number and then click on Pay. To complete the payment, enter your pin when you receive the prompt on your phone. After entering the pin, payment will be confirmed and a form will be issued into your account. Complete all details on the form. Sign the declaration form. Book a date you will like to go to the passport office for the verification of your documents and to take your biometric details (i.e. photograph and fingerprints). Attend your appointment at the passport office (i.e. for verification of your documents and to take your biometric details). You will receive an SMS on your phone from the passport office when your passport is ready for collection. Go to the passport office on the date stated to collect your passport. Hope that helps!</template>
+</category>
+
+<category>
+	<pattern>* APPLY *</pattern>
+	<template>The online application process is as follows: Visit passport.mfa.gov.gh. Click on Login With Ghana.gov to create an account. Click on Sign Up when you are redirected to the Ghana.gov website. Enter your email address and phone number to complete the account creation process. Enter the verification code sent to you to proceed. Click on Authorise to enable Ghana.gov to share the details with the Passports Online Application. After clicking on Authorise, you will be redirected to the passports website, click on “Make Payment” to proceed. Fill in the details to continue with the payment. Click on Make Payment. Click on Leave Site. Upon redirection to check out the invoice, scroll down and click on Pay. Select the Payment Method of your choice. Select Mobile Money {if you want to pay with mobile money}. Select either MTN Mobile Money or Vodafone Cash. Enter the phone number {If you are using mobile money to make payment, make sure that the number you input for the payment is the same you used to register for the account otherwise, use *222# to pay.}. Click on Continue. Confirm the number and then click on Pay. To complete the payment, enter your pin when you receive the prompt on your phone. After entering the pin, payment will be confirmed and a form will be issued into your account. Complete all details on the form. Sign the declaration form. Book a date you will like to go to the passport office for the verification of your documents and to take your biometric details (i.e. photograph and fingerprints). Attend your appointment at the passport office (i.e. for verification of your documents and to take your biometric details). You will receive an SMS on your phone from the passport office when your passport is ready for collection. Go to the passport office on the date stated to collect your passport. Hope that helps!</template>
+</category>
+
+<category>
+	<pattern>APPLY</pattern>
+	<template>The online application process is as follows: Visit passport.mfa.gov.gh. Click on Login With Ghana.gov to create an account. Click on Sign Up when you are redirected to the Ghana.gov website. Enter your email address and phone number to complete the account creation process. Enter the verification code sent to you to proceed. Click on Authorise to enable Ghana.gov to share the details with the Passports Online Application. After clicking on Authorise, you will be redirected to the passports website, click on “Make Payment” to proceed. Fill in the details to continue with the payment. Click on Make Payment. Click on Leave Site. Upon redirection to check out the invoice, scroll down and click on Pay. Select the Payment Method of your choice. Select Mobile Money {if you want to pay with mobile money}. Select either MTN Mobile Money or Vodafone Cash. Enter the phone number {If you are using mobile money to make payment, make sure that the number you input for the payment is the same you used to register for the account otherwise, use *222# to pay.}. Click on Continue. Confirm the number and then click on Pay. To complete the payment, enter your pin when you receive the prompt on your phone. After entering the pin, payment will be confirmed and a form will be issued into your account. Complete all details on the form. Sign the declaration form. Book a date you will like to go to the passport office for the verification of your documents and to take your biometric details (i.e. photograph and fingerprints). Attend your appointment at the passport office (i.e. for verification of your documents and to take your biometric details). You will receive an SMS on your phone from the passport office when your passport is ready for collection. Go to the passport office on the date stated to collect your passport. Hope that helps!</template>
+</category>
+
+<category>
+	<pattern>I WANT TO BUY FORM</pattern>
+	<template>The cost and duration of an application form are: GHS150.00 Expedited application 32 pages (4 to 5 weeks to be ready). GHS200.00 Expedited application 48 pages (4 to 5 weeks to be ready). GHS 100.00 Standard application 32 pages (5 to 6 weeks to be ready). GHS 150.00 Standard application 48 pages (5 to 6 weeks to be ready).</template>
+</category>
+
+</aiml>
